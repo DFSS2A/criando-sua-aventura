@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <title>Os misterios da aldeia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="imagens/cenario-passo0.webp" alt="">
+            <p> Aqui na cidade havia uma lenda que contava a história de uma temida aldeia que ficava em meio ás florestas. Em um certo dia a curiosidade sobre a lenda se aguçou ainda mais, pois encontrei uma caixinha de baixo da cama da minha mãe cheia de segredos interessantes.</p>
+           <button class="btn-proximo" data-proximo="1">Ir atrás</button>
+           <button class="btn-proximo" data-proximo="2">Deixar de lado</button>
+            </div>
+            <div class="passo ativo" id="passo-1">
+                <p>  Você começa sua busca indo chamar seus dois melhores amigos para ir juntamente com você nessa aventura.</p>
+               <button class="btn-proximo" data-proximo="3">Ir sozinha nessa aventura</button>
+               <button class="btn-proximo" data-proximo="4">Chamar seus amigos</button>
+             </div>
+             <div class="passo" id="passo-2">
+                <p>  Apesar de não ter ido atrás, você não parava de pensar naquela caixa. Sua mãe percebeu a caixa revirada e misteriosamente te pediu para ir até a sua antiga escola e procurar um menino chamado Thomás</p>
+                <button class="btn-proximo" data-proximo="5">Procurar Thomás</button>
+                <button class="btn-proximo" data-proximo="6">Procurar mais coisas na caixa</button>
+             </div>
+             <div class="passo" id="passo-3">
+                <p>Para ter ideia de onde começar você decidiu falar com sua mãe e ela te deu um endereço, pediu que fosse até lá. </p>
+                <button class="btn-proximo" data-proximo="7">Ir até lá</button>
+               </div>
+            <div class="passo" id="passo-4"></div>
+             <img src="imgagens/cenario-passo4-voltar-casa.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Indo procurar seus amigos em suas casas descobriu que eles se mudaram e nem ao menos te avisaram. Triste você voltou para sua casa e encerrou a aventura.</p>
+            </div>
+            
+            <div class="passo" id="passo-5">
+                <p>Chegando na escola foi fácil demais achar o menino, estranhamente ele já esperava por você, com um papel misterioso em suas mãos.</p>
+                <button class="btn-proximo" data-proximo="7">Falar com ele</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Explorando a caixa você encontrou fotos de sua mãe com um homem desconhecido em um lugar estranhamente familiar, ela parecia muito feliz e radiante.</p>
+            <button class="btn-proximo" data-proximo="8">Fazer perguntas para sua mãe</button>
+    </div>
+      
+    <div class="passo" id="passo-7">
+            <p>Encontrou um menino chamado Thomás te esperando, ele conversou com você e disse que estaria junto nessa aventura. Te entregou um papel e se calou.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o caminho até a floresta</button>
+            <button class="btn-proximo" data-proximo="10">Seguir o menino</button>
+    </div>
+   
+    <div class="passo" id="passo-8">
+        <p>Sua mãe sorriu ao ver as fotos, e te contou a lenda da aldeia misteriosa de um jeito diferente do qual rodava na cidade. E te incentivou a ir até a floresta.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para a floresta</button>
+</div>
+
+<div class="passo" id="passo-9">
+    <p>Você foi seguindo o mapa que o menino te entregou e chegou até um lugar que parecia uma aldeia e parecido com o lugar da foto de sua mãe com o homem.</p>
+    <button class="btn-proximo" data-proximo="11">Explorar</button>
+</div>
+
+<div class="passo" id="passo-10">
+    <p>Thomás viu que você iria segui-lo e foi até sua casa, estranhamente não havia ninguém lá, ele pegou a caixa misteriosa e abriu.</p>
+    <button class="btn-proximo" data-proximo="12">Perguntar quem ele era</button>
+</div>
+
+<div class="passo" id="passo-11">
+    <img src="imagens/cenario-passo11-aldeia.avif" alt="encontrando uma aldeia">
+    <p>Dentro da aldeia encontrou todos seus amigos, e descobriu que na verdade sempre perteceu aquele lugar e que sua mãe te escondeu por segurança.</p>
+</div>
+
+<div class="passo" id="passo-12">
+    <p>Em silêncio ele tirou uma foto da caixa onde havia duas crianças, era ele e você, mas você não se lembrava de o conhecer. Ele pediu para o seguir.</p>
+    <button class="btn-proximo" data-proximo="11">Explorar</button>
+</div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
